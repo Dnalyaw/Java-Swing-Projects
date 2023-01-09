@@ -11,6 +11,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.*;
 
+
+//game that times your memory on how fast you can match colors
+
 public class MatchgameFrame extends JFrame implements ActionListener {
     JPanel buttonGrid = new JPanel(new GridLayout(4, 4));
     JPanel panel = new JPanel(new GridLayout(1, 2));
