@@ -51,7 +51,7 @@ public class HangmanFrame extends JFrame implements ActionListener {
     int strikes = 0;
     JButton response;
 
-    BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\richa\\IdeaProjects\\Swing_Basics\\src\\com\\beginner\\projects\\1-1000.txt"));
+    BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\richa\\IdeaProjects\\Swing_Basics\\src\\com\\beginner\\projects\\Hangman\\1-1000.txt"));
     ArrayList<String> allWords;
 
 

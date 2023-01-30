@@ -35,8 +35,8 @@ public class WordleFrame extends JFrame implements KeyListener, ActionListener {
     JPanel panel = new JPanel(new GridLayout(6,5));
     int attemptNm = 1;
 
-    BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\richa\\IdeaProjects\\Swing_Basics\\src\\com\\beginner\\projects\\five-letter-words.txt"));
-    BufferedReader allAnswers = new BufferedReader(new FileReader("C:\\Users\\richa\\IdeaProjects\\Swing_Basics\\src\\com\\beginner\\projects\\wordle_answers.txt"));
+    BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\richa\\IdeaProjects\\Swing_Basics\\src\\com\\beginner\\projects\\Wordle\\five-letter-words.txt"));
+    BufferedReader allAnswers = new BufferedReader(new FileReader("C:\\Users\\richa\\IdeaProjects\\Swing_Basics\\src\\com\\beginner\\projects\\Wordle\\wordle_answers.txt"));
 
     ArrayList<String> possibleWds = loadWords();
     ArrayList<String> possibleAnswers = loadAnswers();
